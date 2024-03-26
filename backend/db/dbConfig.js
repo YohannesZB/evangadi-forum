@@ -1,16 +1,12 @@
-const mysql2 = require('mysql2');
-
+const mysql2 = require('mysql2'); 
 const dbConnection = mysql2.createPool({
-  user: process.env.USER,
+  user: process.env.USERR,
   database: process.env.DATABASE,
-  host: "localhost",
+  host: "195.179.237.204",
   password: process.env.PASSWORD,
-  port: 8889,
   connectionLimit: 10
 })
-
-// console.log(process.env.DATABASE)
-
+// console.log(process.env.JWT_SECRET)
 //   dbConnection.execute("select 'its working' ", (err,result) => {
 //   if (err) {
 //     console.log(err.message)

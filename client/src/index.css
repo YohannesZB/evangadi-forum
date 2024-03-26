@@ -1,0 +1,16 @@
+.sign-in-btn:hover {
+      background-color: #fe8402 !important;
+    }
+
+.nav-item a:hover{
+      color: #fe8402 !important;
+}
+
+.user svg{
+width: 100px;
+height: 100px;
+}
+
+.landing{
+      height: 100vh;
+    }
