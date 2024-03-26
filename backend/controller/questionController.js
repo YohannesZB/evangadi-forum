@@ -1,6 +1,6 @@
 // Description: It has all the functions related to question like postQuestion, allQuestion
 
-const dbConnection = require('../db/dbconfig')
+const dbConnection = require('../db/dbConfig')
 
 async function postQuestion(req, res) {
   const { questionid, userid, title, description, tag } = req.body;

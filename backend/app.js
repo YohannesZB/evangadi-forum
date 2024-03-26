@@ -11,6 +11,11 @@ app.use(cors())
     const dbConnection = require("./db/dbConfig")
     const authMiddleware = require("./middleware/authMiddleware")
 
+    //To check if the deployment is successful
+    app.get("/", (req, res) => {
+      res.send({ message: "Welcome to the backend" })
+    })
+
           //  user routes middleware file
           const userRoutes = require("./routes/userRoute")
 

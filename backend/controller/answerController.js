@@ -1,7 +1,7 @@
 // Description: It has all the methods for posting and retrieving answers
 //
 
-const dbConnection = require('../db/dbconfig')
+const dbConnection = require('../db/dbConfig')
 
 async function postAnswer(req, res) {
   const { userid, questionid, answer } = req.body;
