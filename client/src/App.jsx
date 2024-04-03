@@ -4,7 +4,7 @@ import Home from "./pages/Home";
 import { Route, Routes, useNavigate } from "react-router-dom";
 import axios from "./axiosConfig";
 import AskQuestion from "./components/AskQuestion/AskQuestion";
-import Answer from "./components/Answer/Answer";
+import Answer from "./components/Answer/Answer"; 
 
 export const AppState = createContext();
 
