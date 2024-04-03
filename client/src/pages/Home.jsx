@@ -9,7 +9,7 @@ import Footer from "../components/Footer/Footer";
 const Home = () => {
   const { user, question } = useContext(AppState);
   // console.log(question);
-  console.log(user.username);
+  // console.log(user.username);
 
   const navigate = useNavigate();
 

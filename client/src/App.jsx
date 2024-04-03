@@ -14,7 +14,7 @@ function App() {
   const [question, setQuestion] = useState({})
 
   // console.log(question)
-  console.log(user.username)
+  // console.log(user.username)
 
   const token = localStorage.getItem("token");
   // console.log(token)
