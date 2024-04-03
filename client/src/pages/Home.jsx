@@ -4,7 +4,7 @@ import { useNavigate, Link } from "react-router-dom";
 import { PiUserCircleDuotone } from "react-icons/pi";
 import { FaAngleRight } from "react-icons/fa6";
 import { AppState } from "../App";
-import Footer from "../components/Footer/Footer";
+// import Footer from "../components/Footer/Footer";
 
 const Home = () => {
   const { user, question } = useContext(AppState);
@@ -75,7 +75,7 @@ const Home = () => {
             ))}
         </div>
       </section>
-      <Footer />
+      {/* <Footer /> */}
     </>
   );
 };
